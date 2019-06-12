@@ -3,6 +3,7 @@
 * by linpeiwei
 * to 20190612
 * -->
+
 <view class="section">
   <view class="section__title">预约上门时间：</view>
   <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{timeIndex}}" range="{{timeArray}}">
